@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MoINMaker</string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string-array name="spinner_promt">
+
+        <item>None</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="spinner_income">
+        <item>Salary</item>
+        <item>Allowance</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="menu_spinner">
+        <item>Choose Category</item>
+        <item>Shopping</item>
+        <item>Health</item>
+        <item>Family</item>
+        <item>Gaming</item>
+        <item>Bills</item>
+        <item>Food</item>
+    </string-array>
+
+</resources>

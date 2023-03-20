@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgt"
+    tools:context="com.project.moinmaker.Profile">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Tips and Tricks"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/logop" />
+
+    <TextView
+        android:id="@+id/textprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textprofile"
+        android:layout_alignStart="@+id/textprofile"
+        android:layout_alignLeft="@+id/textprofile"
+        android:layout_marginTop="11dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textFeatures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVersion"
+        android:layout_alignStart="@+id/textVersion"
+        android:layout_alignLeft="@+id/textVersion"
+        android:layout_marginTop="11dp"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

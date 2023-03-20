@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "609922925322",
+    "project_id": "moinmaker-b7bba",
+    "storage_bucket": "moinmaker-b7bba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609922925322:android:71adef91b84b63cd6cf0f3",
+        "android_client_info": {
+          "package_name": "com.project.moinmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609922925322-rad4n602o9c55r1u5aq1rusnl0hphm7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe4xJfKkS8cpi24zhSSfhJAB-Hyy3zSJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609922925322-rad4n602o9c55r1u5aq1rusnl0hphm7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
