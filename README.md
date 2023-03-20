@@ -1,1 +1,1 @@
-Android Money Manager application
+
